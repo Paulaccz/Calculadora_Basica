@@ -1,0 +1,26 @@
+.button{
+     -fx-background-color:
+         #B0B0B0,
+         linear-gradient(#fcfcfc, #f3f3f3),
+         linear-gradient(#8198B1 0%, #8198b7 49%, #8198A1 50%, #8198A7 100%);
+     -fx-text-fill: white;
+     -fx-font-size: 14px;
+ }
+
+ .button:hover{
+     -fx-background-color:
+         #FF370F,
+         linear-gradient(#fcfcfc, #f3f3f3),
+         linear-gradient(#627C8D 0%, #627C8E 49%, #627C8F 50%, #627C7F 100%);
+     -fx-text-fill: white;
+     -fx-font-size: 14px;
+ }
+
+ .button:pressed {
+     -fx-background-color:
+         #B0B0B0,
+         linear-gradient(#fcfcfc, #f3f3f3),
+         linear-gradient(#87BDBD 0%, #87ADBD 49%, #879DBD 50%, #87BDBD 100%);
+     -fx-text-fill: white;
+     -fx-font-size: 14px;
+ }
